@@ -159,8 +159,65 @@ Logs:
 Verified idempotency key generation
 
 🤖 AI Prompt Log
+1. Prompt:
+How to design an offline-first sync system in Flutter with queue support?
 
-(Include your AI prompt log here — already prepared)
+Key response summary:
+Suggested storing actions locally (Hive/SQLite), maintaining a queue, and syncing when internet is available.
+
+Decision:
+Accepted (with simplification)
+
+Why:
+The approach matched the assignment requirements. I simplified it to a single queue table instead of multiple layers to keep the implementation manageable within time.
+
+2. Prompt:
+How to implement retry logic for API calls in Flutter?
+
+Key response summary:
+Use try-catch with retry and delay (exponential backoff suggested).
+
+Decision:
+Modified
+
+Why:
+I implemented only a single retry with fixed delay as required by the assignment instead of full exponential backoff.
+
+3. Prompt:
+How to ensure idempotency in a sync system?
+
+Key response summary:
+Use unique identifiers and avoid duplicate operations by checking processed IDs or overwriting existing records.
+
+Decision:
+Accepted
+
+Why:
+I used Firestore document IDs to overwrite data, ensuring no duplicate entries even if retries occur.
+
+4. Prompt :
+How to handle duplicate queue entries in SQLite?
+
+Key response summary:
+Suggested using unique IDs or deduplication logic.
+
+Decision:
+Modified
+
+Why:
+Initially used static IDs which caused constraint errors. Updated to use UUID for queue entries while keeping idempotency at API level.
+
+5.Prompt:
+How to implement TTL caching for local data?
+
+Key response summary:
+Store last fetch timestamp and refresh data after a threshold.
+
+Decision:
+Accepted
+
+Why:
+Implemented simple 5-minute TTL to demonstrate cache refresh strategy.
 
 🛠 Tech Stack
 
