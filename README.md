@@ -136,7 +136,7 @@ Logs:
 
 🔹 Scenario 2: Offline Toggle Complete
 📸 Screenshot:
-![offline](https://github.com/ajinkyakathar/todoapp/blob/37bdef4593ef8180df67a799bbd686051cfc562c/screenshots/offline_add.png)
+![offline](https://github.com/ajinkyakathar/todoapp/blob/e53f31ca3298b36f678e1074ef15dd9968d76c3e/screenshots/offline_toggle.png)
 
 
 
@@ -147,32 +147,20 @@ Logs:
 [QUEUE] Added: UPDATE_TODO
 
 
-🔹 Scenario 3: Retry Mechanism
+🔹 Scenario 3: Sync Completion
 
 📸 Screenshot:
-![offline](https://github.com/ajinkyakathar/todoapp/blob/37bdef4593ef8180df67a799bbd686051cfc562c/screenshots/offline_add.png)
-
-
-Logs:
-
-[SYNC] Failed → retrying
-
-[SYNC] Retry success
-
-🔹 Scenario 4: Sync Completion
-
-📸 Screenshot:
-![offline](https://github.com/ajinkyakathar/todoapp/blob/37bdef4593ef8180df67a799bbd686051cfc562c/screenshots/offline_add.png)
+![offline](https://github.com/ajinkyakathar/todoapp/blob/e53f31ca3298b36f678e1074ef15dd9968d76c3e/screenshots/sync_sucesses.png)
 
 
 Logs:
 
 [SYNC] Pending items: 0
 
-🔹 Scenario 5: TTL Cache
+🔹 Scenario 4: TTL Cache
 
 📸 Screenshot:
-![offline](https://github.com/ajinkyakathar/todoapp/blob/37bdef4593ef8180df67a799bbd686051cfc562c/screenshots/offline_add.png)
+![offline](https://github.com/ajinkyakathar/todoapp/blob/e53f31ca3298b36f678e1074ef15dd9968d76c3e/screenshots/ttl.png)
 
 
 Logs:
