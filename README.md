@@ -107,9 +107,11 @@ Queue deduplication
 UI sync indicators
 
 📊 Verification Evidence
+
+
 🔹 Scenario 1: Offline Add Todo
 
-📸 Screenshot:
+! [Offline Add](screenshots/offline_add.png)
 
 
 
@@ -117,6 +119,8 @@ Logs:
 
 [QUEUE] Added: ADD_TODO
 [QUEUE] Current size: 1
+
+
 🔹 Scenario 2: Offline Toggle Complete
 
 📸 Screenshot:
@@ -126,6 +130,8 @@ Logs:
 Logs:
 
 [QUEUE] Added: UPDATE_TODO
+
+
 🔹 Scenario 3: Retry Mechanism
 
 📸 Screenshot:
