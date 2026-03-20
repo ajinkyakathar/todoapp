@@ -111,7 +111,7 @@ UI sync indicators
 
 🔹 Scenario 1: Offline Add Todo
 
-! [Offline Add](screenshots/offline_add.png)
+![offline](https://github.com/ajinkyakathar/todoapp/blob/37bdef4593ef8180df67a799bbd686051cfc562c/screenshots/offline_add.png)
 
 
 
